@@ -28,6 +28,9 @@
 # Visual Studio cache directory
 .vs/
 
+# JetBrains Rider / IntelliJ cache directory
+.idea/
+
 # Gradle cache directory
 .gradle/
 
@@ -37,6 +40,7 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
@@ -67,6 +71,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Unity-generated build artifacts outside the source project
+/[Dd]ata/
+/docs/*_BurstDebugInformation_DoNotShip/
+
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
@@ -74,4 +82,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 .DS_Store
-.DS_Store
+Thumbs.db
